@@ -50,7 +50,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "AUTO_SHIFT";
             #binding-cells = <2>;
-            tapping_term_ms = <135>;
+            tapping_term_ms = <250>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -165,12 +165,12 @@
             bindings = <
     AS(Q)    AS(W)    AS(E)    AS(R)    AS(T)           AS(Z)    AS(U)        AS(I)      AS(O)     AS(P)
     AS(A)    AS(S)    AS(D)    AS(F)    AS(G)           AS(H)    AS(J)        AS(K)      AS(L)     &kp BSPC
-    AS(Y)    AS(X)    AS(C)    AS(V)    AS(B)           AS(N)    AS(M)        &kp COMMA  &kp DOT   &kp ENTER
-                           &mo 2    &kp LSHIFT          &kp SPACE    &sl 1
+    AS(Y)    AS(X)    AS(C)    AS(V)    AS(B)           AS(N)    AS(M)        &kp COMMA  &kp DOT   &kp KP_MINUS
+                           &mo 2    &kp ENTER          &kp SPACE    &sl 1
             >;
         };
 
-        // Numbers and high frequency symbols
+        // Numbers and high frequency symbolsf
 
         sym_layer {
             label = "Sym.";
@@ -200,8 +200,8 @@
             label = "FRow";
             bindings = <
   &kp F1      &kp F2        &kp F3       &kp F4      &kp F5     &kp F6     &kp F7             &kp F8    &kp F9    &kp F10
-&sk LALT    &sk LGUI    &sk LSHIFT    &sk LCTRL    &kp RALT    &kp F11    &kp F12    &kp PRINTSCREEN    &trans     &trans
-   &none       &none         &none        &none       &none      &none      &none              &none     &none      &none
+&sk LALT    &sk LGUI    &sk LSHIFT    &sk LCTRL    &kp RALT    &kp F11    &kp F12             &kp PSCRN    &trans     &trans
+   &none       &none         &none        &none       &none      &none      &none             &none     &none      &none
                                           &none       &none      &none      &none
             >;
         };
