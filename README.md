@@ -13,7 +13,7 @@ This layout is inspired by [Seniply by Stevep99](https://stevep99.github.io/seni
 [See it in action on YouTube!](https://youtu.be/IZ83uU0ltaE)
 <div align="center">
   
-  ![sweep-layout](https://user-images.githubusercontent.com/27895007/185715593-69f9f981-ae17-4788-b2a8-d1360c65622a.svg)
+![urchin-keymap drawio](https://user-images.githubusercontent.com/2479308/228909283-b30a580d-9a63-4226-9428-77a605461e19.svg)
 
 </div>
 
