@@ -166,7 +166,7 @@
     AS(Q)    AS(W)    AS(E)    AS(R)    AS(T)           AS(Z)    AS(U)        AS(I)      AS(O)     AS(P)
     AS(A)    AS(S)    AS(D)    AS(F)    AS(G)           AS(H)    AS(J)        AS(K)      AS(L)     &kp BSPC
     AS(Y)    AS(X)    AS(C)    AS(V)    AS(B)           AS(N)    AS(M)        &kp COMMA  &kp DOT   &kp KP_MINUS
-                           &mo 2    &kp ENTER          &kp SPACE    &sl 1
+                           &mo 2    &kp SPACE          &kp ENTER    &sl 1
             >;
         };
 
@@ -178,7 +178,7 @@
 &kp N1     &kp N2      &kp N3      &kp N4      &kp N5       &kp N6          &kp N7       &kp N8       &kp N9          &kp N0
 &kp GT     &kp DOLLAR  &kp LPAR    &kp LBRC    &kp LBKT    &kp EQUAL    &kp QUESTION      &kp SQT    &kp MINUS    &kp ASTERISK
 &kp LT     &kp PERCENT &kp RPAR    &kp RBRC    &kp RBKT       &kp AT        &kp EXCL    &kp DQT     &kp PLUS        &kp FSLH
-                                        &mo 3       &mo 4    &kp ENTER          &trans
+                                        &mo 3       &mo 4    &trans          &trans
             >;
         };
 
