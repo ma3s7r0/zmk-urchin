@@ -187,7 +187,7 @@
         sym_layer {
             label = "Sym.";
             bindings = <
-&kp AS(N1)     &kp AS(N2)      &kp AS(N3)      &kp AS(N4)      &kp AS(N5)       &kp AS(N6)          &kp AS(N7)       &kp AS(N8)       &kp AS(N9)          &kp AS(N0)
+&kp N1     &kp N2      &kp N3      &kp N4      &kp N5       &kp N6          &kp N7       &kp N8       &kp N9          &kp N0
 &kp GT     &kp DOLLAR  &kp LPAR    &kp LBRC    &kp LBKT    &kp EQUAL    &kp QUESTION      &kp SQT    &kp MINUS    &kp ASTERISK
 &kp LT     &kp PERCENT &kp RPAR    &kp RBRC    &kp RBKT       &kp AT        &kp EXCL    &kp DQT     &kp PLUS        &kp FSLH
                                         &mo 3       &mo 4    &trans          &trans
