@@ -21,7 +21,7 @@
 // -----------------
 
 #define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
-#define AM(keycode) &as LG(keycode) keycode     // Autometa Macro
+#define AM(keycode) &am LG(keycode) keycode     // Autometa Macro
 
 
 &sk {
