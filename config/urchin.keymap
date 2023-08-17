@@ -20,7 +20,7 @@
 
 // -----------------
 
-#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
+#define AS(keycode) &ht LS(keycode) keycode     // Autoshift Macro
 #define AM(keycode) &am LG(keycode) keycode     // Autometa Macro
 
 
@@ -48,7 +48,7 @@
                 <&kp>;
         };
 
-        as: auto_shift {
+        ht: hold_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "AUTO_SHIFT";
             #binding-cells = <2>;
